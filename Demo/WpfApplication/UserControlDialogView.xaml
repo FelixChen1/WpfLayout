@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication.UserControlDialogView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfApplication="clr-namespace:WpfApplication"
+        Title="UserControlDialogView" Height="360" Width="480">
+    <StackPanel>
+        <wpfApplication:TitleView Margin="10" />
+        <wpfApplication:InputView Margin="20" />
+    </StackPanel>
+</Window>

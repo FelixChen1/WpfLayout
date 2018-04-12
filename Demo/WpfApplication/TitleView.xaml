@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="WpfApplication.TitleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel>
+        <Label Content="Title1" HorizontalAlignment="Center" FontSize="25"/>
+        <Label Content="Title2" HorizontalAlignment="Left" FontSize="20" />
+        <Label Content="Title3" HorizontalAlignment="Right" FontSize="30" />
+    </StackPanel>
+</UserControl>

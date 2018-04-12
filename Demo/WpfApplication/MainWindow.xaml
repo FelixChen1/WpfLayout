@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="360" Width="480">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="10,1,10,1"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="5">
+        <Button Style="{StaticResource {x:Type Button}}" HorizontalAlignment="Stretch" IsEnabled="False">Stack Panel Sample</Button>
+        <Button Style="{StaticResource {x:Type Button}}" HorizontalAlignment="Left" Content="Dock panel Sample" Margin="3,3,0,3" Click="Button_Click"/>
+        <Button Style="{StaticResource {x:Type Button}}" HorizontalAlignment="Right" Click="Button_Click_1">Wrap panel Sample</Button>
+        <Button Style="{StaticResource {x:Type Button}}" HorizontalAlignment="Center" Click="Button_Click_2">Grid Sample</Button>
+        <Button Style="{StaticResource {x:Type Button}}" HorizontalAlignment="Center" IsEnabled="False">Aligment, Margin and Padding</Button>
+        <Button Style="{StaticResource {x:Type Button}}" Click="Button_Click_3">Sample</Button>
+        <Button Style="{StaticResource {x:Type Button}}" Click="Button_Click_4">User control</Button>
+    </StackPanel>    
+</Window>
